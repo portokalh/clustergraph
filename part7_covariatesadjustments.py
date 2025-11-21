@@ -46,7 +46,7 @@ from nibabel.freesurfer.io import read_annot, read_morph_data
 # ============================================================
 # CONFIGURATION
 # ============================================================
-AXIS_NAME = "APOE"      # "APOE", "Age", "BMI", "Risk"
+AXIS_NAME = "Risk" # "Age" #"BMI" #"APOE"      # "APOE", "Age", "BMI", "Risk"; i forgot Sex needs to be generated
 K = 25
 METRIC = "EUCLID"
 
